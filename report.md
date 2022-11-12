@@ -187,6 +187,7 @@ However, the performance metrics indicate an overall improvement and are more de
 
 We compare this model to a baseline classifier which predicts the most frequent class for all items. We show the final results below:
 
+<img src="./Images/perfcomp.png" alt="performancecomparison" width="600" height = "350"/>
 
 
 ---
