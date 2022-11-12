@@ -126,7 +126,7 @@ link: https://onlinelearninginsights.wordpress.com/2012/12/21/what-the-heck-happ
 
 > # Sentiment Analysis
 
-As mentioned before, we have a dataset of 3 million reviews, with an associated score from 1 to 5 stars. We will focus on trying to predict the sentiment of a review based on the review summary instead of the entire text itself. This is done mainly for computational reasons. 
+We have a dataset of 3 million reviews, with an associated score from 1 to 5 stars. We will focus on trying to predict the sentiment of a review based on the review summary instead of the entire text itself. This is done mainly for computational reasons. 
 
 We try to create wordclouds for positive and negative reviews, mainly to understand the type of sentiments we expect to find. One of the first difficulties is how to group 3 star reviews. In similar applications, it is customary to group 3 star reviews together with 4 and 5 stars and classify them as "positive". However, a quick sampling of 3 star reviews shows that they are associated to both negative and positive sentiments. Therefore, they were marked as "neutral", while 1-2 and 4-5 star reviews were classified as "negative" and "positive" respectively. 
 
@@ -140,7 +140,55 @@ For the negative sentiment wordcloud (left) we have words such as "dissappointin
 
 For the positive sentiment cloud, we see words such as "good", "great", "wonderful" and "excellent", which is a nice insight into the type of sentiments that are communicated with positive reviews. 
 
-We proceed to the sentiment classification. As a first, most natural step, we use multilingual BERT for sentiment analysis since this model outputs a score from 1-5 and is trained on multiple languages. At first glance, this model seems to be perfect for our current needs and situation - scores from 1-5 and reviews in possibly different languages. 
+We proceed to the sentiment classification. We use a pretrained model from huggingface named "SiEBERT" which is an english language sentiment classifier. This model was trained on 15 different english datasets, including reviews and tweets and outputs a binary classification - positive or negative.The model has its own tokenizer and can be readily used. 
+
+Using the grouping described above, we remove all neutral reviews and fix a random subset of $100,000$ english reviews. This step is essentially done to reduce computation time.
+
+The resulting data set is very imbalanced:
+
+<img src="./Images/posvsneg.png" alt="posvsneg" width="450" height = "300"/>
+
+
+Using the model's tokenizer, we extract the predicted score for each review and run classification report on the results to obtain metrics per class. 
+
+| RoBERTa          | **precision** | **recall** | **f1-score** | **support** |
+|------------------|---------------|------------|--------------|-------------|
+| **negative**     |      0.51     |    0.82    |     0.63     |    12720    |
+| **positive**     |      0.97     |    0.89    |     0.93     |    87280    |
+|                  |               |            |              |             |
+| **accuracy**     |               |            |     0.88     |    100000   |
+| **macro avg**    |      0.74     |    0.85    |     0.78     |    100000   |
+| **weighted avg** |      0.91     |    0.88    |     0.89     |    100000   |
+
+This model has high values of recall for both classes and a high precision for the positive class. However, it has a precision of 50% for the negative class, which indicates that half of the time that the model classifies as negative, it is actually positive. This is largely due to the imbalance of the classes since the missing 10% of the recall for the positive class corresponds to around 8500 documents which are positive but classified as negative. However, the size of this misclassification is comparable to the size of the negative class, which will cause its precision to go down.
+
+We fine tune this model to our data set by using huggingface's trainer environment. We construct a train, validation, and test set by performing a random 60-20-20 split. We set the learning rate $lr = 2e-5$, and train for $5$ epochs, evaluating and saving our model at each of these. We obtian the following results: 
+
+<img src="./Images/finetuning.png" alt="finetuning" width="500" height = "150"/>
+
+From the 3rd epoch onwards, the model is already overfitting, as evidenced by the decrease in training loss and increase in validation loss. We use the model after the first epoch since this has the lowest validation loss. 
+
+Running the classification again, we obtain the following classificaiton report:
+
+|Fine Tuned RoBERTa| **precision**         | **recall**            | **f1-score**           | **support** |
+|------------------|-----------------------|-----------------------|------------------------|-------------|
+| **negative**     |0.77 $\small(\bf+0.26)$|0.70 $\small(\bf-0.12)$|0.73 $\small(\bf+0.10)$ |    2561     |
+| **positive**     |0.96 $\small(\bf-0.01)$|0.97 $\small(\bf+0.08)$|0.96 $\small(\bf+0.03)$ |    17439    |
+|                  |                       |                       |                        |             |
+| **accuracy**     |                       |                       |0.93 $\small(\bf+0.05)$ |    20000    | 
+| **macro avg**    |0.86 $\small(\bf+0.12)$|0.83 $\small(\bf-0.02)$|0.85 $\small(\bf+0.07)$ |    20000    |
+| **weighted avg** |0.93 $\small(\bf+0.02)$|0.93 $\small(\bf+0.05)$|0.93 $\small(\bf+0.04)$ |    20000    |
+
+As we can see, the model has noticeably improved compared to before. We have higher values for precision ($51\%\rightarrow71\%$) and f1-score ($63\%\rightarrow73\%$) for the negative class, and higher recall ($89\%\rightarrow97\%$) and f1-score ($93\%\rightarrow96\%$) for the positive class. Furthermore, the accuracy also increased ($88\%\rightarrow93\%$). 
+
+The precision for the positive class decreased slightly ($97\%\rightarrow96\%$) and the recall dropped considerably ($82\%\rightarrow70%\$).
+
+However, the performance metrics indicate an overall improvement and are more desirable for an all purpose application. 
+
+We compare this model to a baseline classifier which predicts the most frequent class for all items. We show the final results below:
+
+
 
 ---
+
 > # Results and Discussion
