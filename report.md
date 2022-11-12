@@ -54,7 +54,7 @@ On the other hand, for sentiment analysis, we use accuracy, precision, recall, a
 > # Topic Modeling
 After having eliminated items with empty book descriptions and non english text, we are left with $\sim 142000$ elements. At this point, to obtain an even more descriptive summary of the book, we concatenate the title of the book at the end of the summary.
 
-The we aggressively preprocess the text to reduce variance to a minimum and capture the most meaning with the word descriptors after running LDA. In particular, we normalize the text and remove all symbols and punctuations (except for hyphens and apostrophes), we tokenize using spacy, we keep the lemma of each word, we remove stop words contained in the default list of spacy, and then we find the joint collocations with PMI $\ge$ 1.0 and represent them as bigrams. This final bound was chosen to limit the computational power and keep only the most significative words. 
+The we aggressively preprocess the text to reduce variance to a minimum and capture the most meaning with the word descriptors after running LDA. In particular, we normalize the text and remove all symbols and punctuations (except for hyphens and apostrophes), we tokenize using spacy, we keep the lemma of each word, we remove stop words contained in the default list of spacy, removing also words such as "book", "author", "write", "story". Finally, we find the joint collocations with PMI $\ge$ 1.0 and represent them as bigrams. This final bound was chosen to limit the computational power and keep only the most significative words. 
 
 We construct the wordcloud from the preprocessed description to study the most frequent terms in order to have some prior ideas of some important topics/themes in the corpus. 
 
