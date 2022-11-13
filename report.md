@@ -189,7 +189,23 @@ We compare this model to a baseline classifier which predicts the most frequent 
 
 <img src="./Images/perfcomp.png" alt="performancecomparison" width="600" height = "350"/>
 
+We notice tha the both the model and its fine tuned version performs better than the baseline in all the metrics.
+
+In particular, we see that the balanced accuracy for the baseline is reduced to $1/n_{classes}$ which is the accuracy of a random classifier. 
+
+Both models also outperform the weighted and micro f1 scores, which is important due to the high imbalance of the classes. To briefly explain further, the baseline will correctly predict all the occurrences of the positive class, which account for approximately 85% of the dataset. Thus, if we are weighting the metrics by their class weight, this will "hide" the null performance on the negative class. However, both models are able to outperform this and correctly predict the majority of the positive class but also 70% of the negative class.
+
+We are not surprised that the models outperform the baseline in f1-macro score since this gives equal weights to the classes and the baseline misclassifies all the negative instances. 
+
+Lastly, the only area where the pretrained model surpasses the fine tuned model is in balanced accuracy. However, the difference is so small that it could be due to fluctuations in the testing. In fact, we must remember that for the pretrained model we compute the metrics on a test set which contained $100,000$ items, while the finetuned model only has $20,000$ reviews. A better approach would have been to fine tune the model on $100,000$ items and then test it on another $100,000$ items. However, this was not done for computational reasons. 
 
 ---
 
 > # Results and Discussion
+
+In the first section we extracted 10 topics from the corpus of book descriptions by maximizing UMass and CV scores. By analyzing the top 10 descriptors for each topic, we were able to draw connections to the categories of the dataset and find surprising insights as well. For example, **cooking**, **sport & outdoors**, and **poetry & literature** do not figure among the top 10 categories while **science** and **computers** were lacking among the topics extracted. However, in the absence of this information, this tool could enable authors and publishing companies alike to obtain information about the topics of a corpus and study how their frequency changes over time. This in turn could give an insight into which categories are more popular and worth publishing or writing about. 
+
+In our particular case we saw that the topic of **fictional romance** was produced more frequently during the years of covid, which indicates perhaps, that this would've been a good moment to focus on this category of books. It also gives insight into how world events can affect the book market. 
+
+In the second section, we fine-tuned a pretrained RoBERTa classifier to predict reviews as positive or negative. The model outperformed the baseline classifier and the pretrained model without fine tuning. This tool gives us a simple method to evaluate user reviews and integrate this knowledge into a recommender system which is based on user similarity. Specifically, if two users with similar features, rate the same items as positive and negative, then we could recommend items that one user liked to the other.
+
