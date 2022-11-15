@@ -141,7 +141,7 @@ Using the grouping described above, we remove all neutral reviews and fix a rand
 
 We plot the distribution of the resulting dataset to verify that it still follows the original trend. As we can see it is still very unbalanced:
 
-<img src="./Images/posvsneg.png" alt="posvsneg" width="450" height = "300"/>
+<img src="./Images/posvsneg.png" alt="posvsneg" width="700" height = "500"/>
 
 
 Using the model's tokenizer, we extract the predicted score for each review and run classification report on the results to obtain metrics per-class. 
