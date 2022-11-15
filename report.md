@@ -127,8 +127,8 @@ We try to create wordclouds for positive and negative reviews, mainly to underst
 
 We show the respective wordclouds:
 <p float="left">
-  <img src="./Images/negative_wordcloud.png" width="550" />
-  <img src="./Images/positive_wordcloud.png" width="550" /> 
+  <img src="./Images/negative_wordcloud.png" width="450" />
+  <img src="./Images/positive_wordcloud.png" width="450" /> 
 </p>
 
 For the negative sentiment wordcloud (left) we have words such as "dissappointing", "bad", "boring", which indicate the emotions associated to these reviews. However, we also observe the presence of words such as "great" and "good", which seems counterintuitive at first glance. However, a quick search-and-find of the documents containing these terms shows that they are always preceded by "not" or "not so", in order to form a negative sentiment. This could have been avoided through the use of joint collocations.
