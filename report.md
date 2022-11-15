@@ -174,9 +174,9 @@ Running the classification again on the test set, we obtain the following classi
 | **macro avg**    |0.86 $\small(\bf+0.12)$|0.83 $\small(\bf-0.02)$|0.85 $\small(\bf+0.07)$ |    20000    |
 | **weighted avg** |0.93 $\small(\bf+0.02)$|0.93 $\small(\bf+0.05)$|0.93 $\small(\bf+0.04)$ |    20000    |
 
-As we can see, the model has noticeably improved compared to before. We have higher values for precision ( $51$ % $\rightarrow 71$ % ) and f1-score ($63\%\rightarrow73\%$) for the negative class, and higher recall ($89\%\rightarrow97\%$) and f1-score ($93\%\rightarrow96\%$) for the positive class. Furthermore, the accuracy also increased ($88\%\rightarrow93\%$). 
+As we can see, the model has noticeably improved compared to before. We have higher values for precision ( $51$ % $\rightarrow 71$ % ) and f1-score ( $63$ % $\rightarrow 73$ % ) for the negative class, and higher recall ( $89$ % $\rightarrow 97$ % ) and f1-score ( $93$ % $\rightarrow 96$ % ) for the positive class. Furthermore, the accuracy also increased ( $88$ % $\rightarrow 93$ % ). 
 
-The precision for the positive class decreased slightly ($97\%\rightarrow96\%$) and the recall dropped considerably ($82\%\rightarrow70\%$).
+The precision for the positive class decreased slightly ( $97$ % $\rightarrow 96$ % ) and the recall dropped considerably ( $82$ % $\rightarrow 70$ % ).
 
 However, the performance metrics indicate an overall improvement and are more desirable for an all purpose application. 
 
@@ -198,7 +198,7 @@ Lastly, the only area where the pretrained model surpasses the fine-tuned model 
 
 > # Results and Discussion
 
-In the first section we extracted 10 topics from the corpus of book descriptions ($\sim 200,000$ items) by maximizing UMass and CV scores. By analyzing the top 10 descriptors for each topic, we were able to draw connections to the categories of the dataset. In particular, we saw that all of the topics either appeared as a category, or encapsulated 2 or more categories which were very related. Furthermore, the topic descriptors also served to have a better idea of the type of words associated to each topic, which gives a deeper understanding of what a category means, rather than leaving it to interpretation. 
+In the first section we extracted 10 topics from the corpus of book descriptions ( $\sim 200,000$ items) by maximizing UMass and CV scores. By analyzing the top-10 descriptors for each topic, we were able to draw connections to the categories of the dataset. In particular, we saw that all of the topics either appeared as a category, or encapsulated 2 or more categories which were very related. Furthermore, the topic descriptors also served to have a better idea of the type of words associated to each topic, which gives a deeper understanding of what a category means, rather than leaving it to interpretation. 
 
 However, in the absence of supervision (i.e the categories), this tool could enable authors and publishing companies alike to obtain information about the topics of a corpus and study how their frequency changes over time. This in turn could give an insight into which categories are more popular and worth publishing or writing about. In our case, we saw that the topic of **fictional romance** was produced more frequently during the years of covid, which indicates perhaps, that this would've been a good moment to focus on this thematic. Another interesting observation was the increase in 2012 of books related to **student help** which coincided with the boom of MOOC's. Finally, the data showed an overall decline in volume, which could be due to lack of data collection or could indicate a general trend towards reading less. 
 
