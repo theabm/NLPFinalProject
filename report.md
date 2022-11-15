@@ -155,7 +155,7 @@ Using the model's tokenizer, we extract the predicted score for each review and 
 | **macro avg**    |      0.74     |    0.85    |     0.78     |    100000   |
 | **weighted avg** |      0.91     |    0.88    |     0.89     |    100000   |
 
-This model has high values of recall for both classes and a high precision for the positive class. However, it has a precision of $50$\% for the negative class, which indicates that half of the time that the model classifies as negative, it is actually positive. This is largely due to the unbalance of the classes since the missing $10\%$ of the recall for the positive class corresponds to around $8,500$ documents which are positive but classified as negative. However, the size of this misclassification is comparable to the size of the negative class, which will cause its precision to go down.
+This model has high values of recall for both classes and a high precision for the positive class. However, it has a precision of $50$\% for the negative class, which indicates that half of the time that the model classifies as negative, it is actually positive. This is largely due to the unbalance of the classes since the missing $10$\% of the recall for the positive class corresponds to around $8,500$ documents which are positive but classified as negative. However, the size of this misclassification is comparable to the size of the negative class, which will cause its precision to go down.
 
 We fine tune this model to our data set by using huggingface's trainer[[5]](https://huggingface.co/docs/transformers/training#additional-resources) environment. We construct a train, validation, and test set by performing a random $60-20-20$ split. We set the learning rate $lr = 2e-5$, and train for $5$ epochs, evaluating and saving our model at each of these. We obtian the following results: 
 
@@ -174,9 +174,9 @@ Running the classification again on the test set, we obtain the following classi
 | **macro avg**    |0.86 $\small(\bf+0.12)$|0.83 $\small(\bf-0.02)$|0.85 $\small(\bf+0.07)$ |    20000    |
 | **weighted avg** |0.93 $\small(\bf+0.02)$|0.93 $\small(\bf+0.05)$|0.93 $\small(\bf+0.04)$ |    20000    |
 
-As we can see, the model has noticeably improved compared to before. We have higher values for precision ( $51$ % $\rightarrow 71$ % ) and f1-score ( $63$ % $\rightarrow 73$ % ) for the negative class, and higher recall ( $89$ % $\rightarrow 97$ % ) and f1-score ( $93$ % $\rightarrow 96$ % ) for the positive class. Furthermore, the accuracy also increased ( $88$ % $\rightarrow 93$ % ). 
+As we can see, the model has noticeably improved compared to before. We have higher values for precision ( $51$\% $\rightarrow 71$\% ) and f1-score ( $63$\% $\rightarrow 73$\% ) for the negative class, and higher recall ( $89$\% $\rightarrow 97$\% ) and f1-score ( $93$\% $\rightarrow 96$\% ) for the positive class. Furthermore, the accuracy also increased ( $88$\% $\rightarrow 93$\% ). 
 
-The precision for the positive class decreased slightly ( $97$ % $\rightarrow 96$ % ) and the recall dropped considerably ( $82$ % $\rightarrow 70$ % ).
+The precision for the positive class decreased slightly ( $97$\% $\rightarrow 96$\% ) and the recall dropped considerably ( $82$\% $\rightarrow 70$\% ).
 
 However, the performance metrics indicate an overall improvement and are more desirable for an all purpose application. 
 
