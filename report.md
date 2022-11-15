@@ -35,7 +35,7 @@ The dataset contains two separate files with data on books and their reviews.
 
 The first file contains details about $\sim 212,000$ books. In particular, it contains information such as title, author, published date, description, and category. Around $68,000$ ( $30$\%) items have a missing description, so they are eliminated, since the main focus is to extract topics from the summaries of books. Furthermore, not all the books are in English. Since LDA implicitly assumes the same language for its probablistic structure of document creation, we remove documents not in english after applying language recognition tools to the summaries. This leaves a total of $\sim 142,000$ items. In this subset, we study the frequency of the categories and find that the three most popular are fiction, history, and religion. However, the existing categories are $521$, so we limit ourselves to showing the top 10 most frequent. 
 
-<img src="./Images/categories.png" alt="categories" width="550" height = "500" />
+<img src="./Images/categories.png" alt="categories" width="650" height = "400" />
 
 
 The second file contains information about $3$ million reviews on the books contained in the first file. In particular, we have info such as book id (being reviewed), title of the book, id of user reviewing, summary of the review, text of the review, and finally a score from 1 to 5. The scores are severly imbalanced with 5 star reviews being the most predominant class.
