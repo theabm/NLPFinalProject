@@ -61,7 +61,7 @@ We construct the wordcloud from the preprocessed descriptions to study the most 
 
 Some of the most frequent words such as "work", "world", "life", "history", "time", "love", "family", are very suggestive of the topics present in the corpus. These are powerful indicators of possible topics that we may find in the corpus. Also, we can see that they can be linked in some way to the most popular categories shown before. 
 
-After having prepared the corpus for LDA, we must determine the number of topics to extract. To achieve this, we loop over $K = [2,...,20]$ and train LDA on the first $10,0000$ documents, and compute UMass and CV scores on the next $40,000$. We set $\alpha = 0.01$ and $\eta = $"auto". The former tells us to expect around one topic per document while the latter is related to the specificity of words to topics and enables LDA to learn a prior from the corpus. We obtain the following curves for varying $K$:
+After having prepared the corpus for LDA, we must determine the number of topics to extract. To achieve this, we loop over $K = [2,...,20]$ and train LDA on the first $10,0000$ documents, and compute UMass and CV scores on the next $40,000$. We set $\alpha = 0.01$ and $\eta =$ "auto". The former tells us to expect around one topic per document while the latter is related to the specificity of words to topics and enables LDA to learn a prior from the corpus. We obtain the following curves for varying $K$:
 
 <img src="./Images/umasscvscore.png" alt="categories" width="800" height = "550"/>
 
