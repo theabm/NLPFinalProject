@@ -108,7 +108,7 @@ In particular, we will analyze the last 12 years (for graphical and practical re
 We associate to each document the most relevant document and plot how many items belong to each topic per year. Below we can see the results:
 
 
-<img src="./Images/topicsbyyear.png" alt="categories" width="1050" height = "400"/>
+<img src="./Images/topicsbyyear.png" alt="categories" width="1050" height = "500"/>
 
 Some notable observations from the bar chart above:
 - In 2021, the number of books related to **fictional romance** and **family** has gone up. This could be due to the difficult times due to the pandemic which undoubtedly left lots of people with desires of affection and human contact[[2]](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.798260/full) as well as an intriguing story to occupy their time during lockdown/quarantine. 
