@@ -63,7 +63,7 @@ Some of the most frequent words such as "work", "world", "life", "history", "tim
 
 After having prepared the corpus for LDA, we must determine the number of topics to extract. To achieve this, we loop over $K = [2,...,20]$ and train LDA on the first $10,0000$ documents, and compute UMass and CV scores on the next $40,000$. We set $\alpha = 0.01$ and $\eta = $"auto". The former tells us to expect around one topic per document while the latter is related to the specificity of words to topics and enables LDA to learn a prior from the corpus. We obtain the following curves for varying $K$:
 
-<img src="./Images/umasscvscore.png" alt="categories" width="650" height = "400"/>
+<img src="./Images/umasscvscore.png" alt="categories" width="800" height = "550"/>
 
 As we can see, we obtain that the the local maximum is at $K=10$ topics for both UMass and CV score. Specifically, for the CV score, $K=10$ represents a global maximum. 
 
