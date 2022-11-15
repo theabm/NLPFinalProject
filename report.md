@@ -159,7 +159,7 @@ This model has high values of recall for both classes and a high precision for t
 
 We fine tune this model to our data set by using huggingface's trainer[[5]](https://huggingface.co/docs/transformers/training#additional-resources) environment. We construct a train, validation, and test set by performing a random $60-20-20$ split. We set the learning rate $lr = 2e-5$, and train for $5$ epochs, evaluating and saving our model at each of these. We obtian the following results: 
 
-<img src="./Images/finetuning.png" alt="finetuning" width="500" height = "150"/>
+<img src="./Images/finetuning.png" alt="finetuning" width="700" height = "350"/>
 
 From the 3rd epoch onwards, the model is already overfitting, as evidenced by the decrease in training loss and increase in validation loss. We use the model after the first epoch since this has the lowest validation loss. 
 
@@ -182,7 +182,7 @@ However, the performance metrics indicate an overall improvement and are more de
 
 We compare this model to a baseline classifier which predicts the most frequent class for all items. We show the final results below:
 
-<img src="./Images/perfcomp.png" alt="performancecomparison" width="600" height = "350"/>
+<img src="./Images/perfcomp.png" alt="performancecomparison" width="900" height = "550"/>
 
 We notice tha the both the model and its fine tuned version performs better than the baseline in all the metrics.
 
