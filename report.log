@@ -1,0 +1,591 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.17)  15 NOV 2022 20:37
+entering extended mode
+**./report.tex
+(report.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen139
+\ttl@minus=\dimen140
+\ttl@toksa=\toks15
+\titlewidth=\dimen141
+\titlewidthlast=\dimen142
+\titlewidthfirst=\dimen143
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks17
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count188
+\U@D=\dimen152
+\l@babelnohyphens=\language79
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count189
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+))
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen153
+))
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen154
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks20
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks21
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks29
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count268
+\float@exts=\toks30
+\float@box=\box50
+\@float@everytoks=\toks31
+\@floatcapt=\box51
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks32
+\c@algorithm=\count269
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count270
+\c@ALG@rem=\count271
+\c@ALG@nested=\count272
+\ALG@tlm=\skip57
+\ALG@thistlm=\skip58
+\c@ALG@Lnr=\count273
+\c@ALG@blocknr=\count274
+\c@ALG@storecount=\count275
+\c@ALG@tmpcounter=\count276
+\ALG@tmplength=\skip59
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+) (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box52
+\extrarowheight=\dimen165
+\NC@list=\toks33
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box53
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip62
+\subfigcapskip=\skip63
+\subfigcaptopadj=\dimen166
+\subfigbottomskip=\skip64
+\subfigcapmargin=\dimen167
+\subfiglabelskip=\skip65
+\c@subfigure=\count277
+\c@lofdepth=\count278
+\c@subtable=\count279
+\c@lotdepth=\count280
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg
+)
+\subfig@top=\skip66
+\subfig@bottom=\skip67
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count282
+\mult@box=\box54
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count283
+\c@collectmore=\count284
+\doublecol@number=\count285
+\multicoltolerance=\count286
+\multicolpretolerance=\count287
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@gfirstbox=\box59
+\mult@firstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count288
+\c@columnbadness=\count289
+\c@finalcolumnbadness=\count290
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count291
+))
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count292
+\TX@ftn=\toks36
+)
+\report@idxfile=\write3
+\openout3 = `report.idx'.
+
+
+Writing index file report.idx
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count293
+\l__pdf_internal_box=\box100
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(32.52127pt, 532.46533pt, 32.52127pt)
+* v-part:(T,H,B)=(32.52127pt, 780.0043pt, 32.52127pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=532.46533pt
+* \textheight=780.0043pt
+* \oddsidemargin=-39.74872pt
+* \evensidemargin=-39.74872pt
+* \topmargin=-76.74872pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen182
+\scratchbox=\box101
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen183
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks38
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) (report.toc)
+\tf@toc=\write4
+\openout4 = `report.toc'.
+
+ [1
+
+{C:/Users/andre/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<./Images/categories.png, id=9, 971.63pt x 451.6875pt>
+File: ./Images/categories.png Graphic file (type png)
+<use ./Images/categories.png>
+Package pdftex.def Info: ./Images/categories.png  used on input line 55.
+(pdftex.def)             Requested size: 569.0462pt x 284.54395pt.
+
+Overfull \hbox (36.58087pt too wide) in paragraph at lines 55--56
+ [] 
+ []
+
+[2 <./Images/categories.png>]
+<./Images/scores.png, id=17, 877.2775pt x 451.6875pt>
+File: ./Images/scores.png Graphic file (type png)
+<use ./Images/scores.png>
+Package pdftex.def Info: ./Images/scores.png  used on input line 65.
+(pdftex.def)             Requested size: 512.15446pt x 284.54395pt.
+<./Images/wordcloud.png, id=18, 1031.855pt x 1031.855pt>
+File: ./Images/wordcloud.png Graphic file (type png)
+<use ./Images/wordcloud.png>
+Package pdftex.def Info: ./Images/wordcloud.png  used on input line 87.
+(pdftex.def)             Requested size: 341.42639pt x 256.07373pt.
+ [3 <./Images/scores.png>]
+<./Images/umasscvscore.png, id=23, 803.0pt x 602.25pt>
+File: ./Images/umasscvscore.png Graphic file (type png)
+<use ./Images/umasscvscore.png>
+Package pdftex.def Info: ./Images/umasscvscore.png  used on input line 99.
+(pdftex.def)             Requested size: 455.25195pt x 256.0861pt.
+ [4 <./Images/wordcloud.png (PNG copy)> <./Images/umasscvscore.png>]
+<./Images/topicsbyyear.png, id=28, 1264.725pt x 451.6875pt>
+File: ./Images/topicsbyyear.png Graphic file (type png)
+<use ./Images/topicsbyyear.png>
+Package pdftex.def Info: ./Images/topicsbyyear.png  used on input line 152.
+(pdftex.def)             Requested size: 455.24277pt x 256.0861pt.
+ [5]
+<./Images/negative_wordcloud.png, id=38, 1031.855pt x 1031.855pt>
+File: ./Images/negative_wordcloud.png Graphic file (type png)
+<use ./Images/negative_wordcloud.png>
+Package pdftex.def Info: ./Images/negative_wordcloud.png  used on input line 17
+7.
+(pdftex.def)             Requested size: 256.07373pt x 284.52463pt.
+<./Images/positive_wordcloud.png, id=39, 1031.855pt x 1031.855pt>
+File: ./Images/positive_wordcloud.png Graphic file (type png)
+<use ./Images/positive_wordcloud.png>
+Package pdftex.def Info: ./Images/positive_wordcloud.png  used on input line 17
+8.
+(pdftex.def)             Requested size: 256.07373pt x 284.52463pt.
+ [6 <./Images/topicsbyyear.png>]
+<./Images/posvsneg.png, id=44, 725.71124pt x 451.6875pt>
+File: ./Images/posvsneg.png Graphic file (type png)
+<use ./Images/posvsneg.png>
+Package pdftex.def Info: ./Images/posvsneg.png  used on input line 197.
+(pdftex.def)             Requested size: 512.15802pt x 256.0861pt.
+ [7 <./Images/negative_wordcloud.png (PNG copy)> <./Images/positive_wordcloud.p
+ng (PNG copy)>]
+<./Images/finetuning.png, id=49, 468.24937pt x 144.54pt>
+File: ./Images/finetuning.png Graphic file (type png)
+<use ./Images/finetuning.png>
+Package pdftex.def Info: ./Images/finetuning.png  used on input line 225.
+(pdftex.def)             Requested size: 455.26591pt x 142.27016pt.
+ [8 <./Images/posvsneg.png> <./Images/finetuning.png>]
+Overfull \hbox (22.96674pt too wide) in paragraph at lines 255--256
+[]\OT1/cmr/m/n/10 The pre-ci-sion for the pos-i-tive class de-creased slightly 
+($97% \OMS/cmsy/m/n/10 ! \OT1/cmr/m/n/10 96%$) and the re-call dropped con-sid-
+er-ably ($82%\OML/cmm/m/it/10 rightarrow\OT1/cmr/m/n/10 70%$). 
+ []
+
+<./Images/perfcomp.png, id=55, 946.53625pt x 451.6875pt>
+File: ./Images/perfcomp.png Graphic file (type png)
+<use ./Images/perfcomp.png>
+Package pdftex.def Info: ./Images/perfcomp.png  used on input line 263.
+(pdftex.def)             Requested size: 512.16187pt x 256.0861pt.
+[9 <./Images/perfcomp.png>] [10]
+Underfull \hbox (badness 7540) in paragraph at lines 297--298
+[]\OT1/cmr/m/n/10 https://onlinelearninginsights.wordpress.com/2012/12/21/what-
+the-heck-happened-in-2012-review-of-the-top three-
+ []
+
+[11] (report.aux) ) 
+Here is how much of TeX's memory you used:
+ 5866 strings out of 479697
+ 82396 string characters out of 2867132
+ 401969 words of memory out of 3000000
+ 22841 multiletter control sequences out of 15000+200000
+ 410909 words of font info for 56 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,11n,72p,926b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\andre\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\tcrm1000.pk><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/andre/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/andre/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/andre/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a
+ndre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/andre/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/andre/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report.pdf (11 pages, 1925591 bytes).
+PDF statistics:
+ 117 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

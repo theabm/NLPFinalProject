@@ -1,0 +1,7 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Problem Statement }{2}{}%
+\contentsline {section}{\numberline {2}Data Description }{2}{}%
+\contentsline {section}{\numberline {3}Assessment and Performance Indexes }{3}{}%
+\contentsline {section}{\numberline {4}Topic Modeling }{3}{}%
+\contentsline {section}{\numberline {5}Sentiment Analysis }{6}{}%
+\contentsline {section}{\numberline {6}Results and Discussion }{10}{}%
