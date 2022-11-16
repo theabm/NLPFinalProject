@@ -17,3 +17,9 @@ All code is contained and described in the python notebook. It is recommended to
 
 ># The report
 The report describes the main results and explains the procedure.
+
+># The dataset
+The dataset can be found at:
+
+https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews
+
